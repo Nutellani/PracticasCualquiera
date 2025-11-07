@@ -35,7 +35,7 @@ public class Matricula {
     // ############## METHODS ##############
     @Override
     public String toString() {
-        return ("Matrícula: " + numero + ", Coche: " + coche.getModelo());
+        return ("Matrícula: " + numero + ", del Coche: " + coche.getModelo());
     }
 
 }
